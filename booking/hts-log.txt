@@ -1,0 +1,36 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 19 Apr 2023 15:39:01 at https://travelnest.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "es, en, *" -P http://themezaa.com/html/resume/dark_gray/index.html https://travelnest.com -O1 "C:\Users\Pauykasia\Desktop\hdd\coach" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:40:52	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://travelnest.com/)
+15:45:18	Warning: 	Permanent Redirect for https://travelnest.com/calendar-sync/
+15:45:18	Warning: 	File has moved from https://travelnest.com/calendar-sync/ to /features/calendar-sync
+15:45:18	Warning: 	Permanent Redirect for https://travelnest.com/contact/
+15:45:18	Warning: 	File has moved from https://travelnest.com/contact/ to /contact
+15:45:18	Warning: 	Permanent Redirect for https://travelnest.com/direct/
+15:45:18	Warning: 	File has moved from https://travelnest.com/direct/ to /features/direct
+15:45:18	Warning: 	Permanent Redirect for https://travelnest.com/blog/marketing-tips/using-social-media-and-ads-to-grow-your-bookings/
+15:45:18	Warning: 	File has moved from https://travelnest.com/blog/marketing-tips/using-social-media-and-ads-to-grow-your-bookings/ to /news-and-insights/using-social-media-and-ads-to-grow-your-bookings
+15:45:21	Warning: 	Permanent Redirect for https://travelnest.com/blog/travelnest-updates/renting-a-holiday-home-in-denmark-on-airbnb/
+15:45:21	Warning: 	File has moved from https://travelnest.com/blog/travelnest-updates/renting-a-holiday-home-in-denmark-on-airbnb/ to /news-and-insights/renting-a-holiday-home-in-denmark-on-airbnb
+15:45:21	Warning: 	Permanent Redirect for https://travelnest.com/blog/marketing-tips/how-to-write-the-perfect-vacation-rental-listing-description/
+15:45:21	Warning: 	File has moved from https://travelnest.com/blog/marketing-tips/how-to-write-the-perfect-vacation-rental-listing-description/ to /news-and-insights/how-to-write-the-perfect-vacation-rental-listing-description
+15:45:24	Warning: 	Permanent Redirect for https://travelnest.com/blog/marketing-tips/interior-design-trends-you-need-in-your-holiday-home/
+15:45:24	Warning: 	File has moved from https://travelnest.com/blog/marketing-tips/interior-design-trends-you-need-in-your-holiday-home/ to /news-and-insights/interior-design-trends-you-need-in-your-holiday-home
+15:45:31	Warning: 	Permanent Redirect for https://travelnest.com/blog/travelnest-updates/hosting-with-booking-com/
+15:45:31	Warning: 	File has moved from https://travelnest.com/blog/travelnest-updates/hosting-with-booking-com/ to /news-and-insights/hosting-with-booking-com
+15:45:34	Warning: 	Permanent Redirect for https://travelnest.com/blog/travelnest-updates/vacation-rental-travel-trends-of-2022/
+15:45:34	Warning: 	File has moved from https://travelnest.com/blog/travelnest-updates/vacation-rental-travel-trends-of-2022/ to /news-and-insights/vacation-rental-travel-trends-of-2022
+15:45:37	Warning: 	Permanent Redirect for https://travelnest.com/marketing-channels/airbnb-advertising/
+15:45:37	Warning: 	File has moved from https://travelnest.com/marketing-channels/airbnb-advertising/ to /channel/airbnb
+15:45:37	Warning: 	Permanent Redirect for https://travelnest.com/blog/travelnest-updates/vacation-rental-regulations-in-austria/
+15:45:37	Warning: 	File has moved from https://travelnest.com/blog/travelnest-updates/vacation-rental-regulations-in-austria/ to /news-and-insights/vacation-rental-regulations-in-austria
+15:46:12	Warning: 	Permanent Redirect for https://travelnest.com/blog/top-properties/top-destinations-for-travel-in-2023/
+15:46:12	Warning: 	File has moved from https://travelnest.com/blog/top-properties/top-destinations-for-travel-in-2023/ to /news-and-insights/top-destinations-for-travel-in-2023
+
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 19 seconds : 201 links scanned, 187 files written (80427539 bytes overall) [57405431 bytes received at 130764 bytes/sec], 25987989 bytes transferred using HTTP compression in 82 files, ratio 10%, 2.7 requests per connection
+(1 errors, 24 warnings, 0 messages)
