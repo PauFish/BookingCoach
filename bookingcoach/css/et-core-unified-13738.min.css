@@ -156,6 +156,9 @@ ul#mobile_menu1 {
     background-color: #ffffff!important;
     width: 98%;
 }
+.backicons {
+    background-image: linear-gradient(90deg,#006eff 0%,#00c6e0 100%)!important;
+}
 @media all and (min-width:1200px) and (max-width:1460px) {
     nav.et-menu-nav li {
         font-size: 9px;
