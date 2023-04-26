@@ -2383,12 +2383,18 @@ html[dir="rtl"] .wpml-language-switcher-block .wpml-ls-dropdown ul li.wp-block-n
   
   @keyframes pulse {
     0% {
-      box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+      }
+      70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 20px rgba(37, 211, 102, 0);
+      }
+      100% {
+        transform: scale(1.2);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+      }
     }
-    80% {
-      box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
-    }
-  }
   
   .btn-whatsapp-pulse-border {
     bottom: 120px;
