@@ -19,13 +19,13 @@ $(document).ready(function() {
                     }
                 }
             },
-             last_name: {
+             hotel_name: {
                 validators: {
                      stringLength: {
                         min: 2,
                     },
                     notEmpty: {
-                        message: 'Please supply your last name'
+                        message: 'Please supply your hotel name'
                     }
                 }
             },
@@ -45,15 +45,14 @@ $(document).ready(function() {
                         message: 'Please supply your phone number'
                     },
                     phone: {
-                        country: 'US',
-                        message: 'Please supply a vaild phone number with area code'
+                        message: 'Please supply a vaild phone number with country code'
                     }
                 }
             },
             address: {
                 validators: {
                      stringLength: {
-                        min: 8,
+                        min: 3,
                     },
                     notEmpty: {
                         message: 'Please supply your street address'
@@ -63,7 +62,7 @@ $(document).ready(function() {
             city: {
                 validators: {
                      stringLength: {
-                        min: 4,
+                        min: 1,
                     },
                     notEmpty: {
                         message: 'Please supply your city'
@@ -77,23 +76,23 @@ $(document).ready(function() {
                     }
                 }
             },
-            zip: {
+            country: {
                 validators: {
-                    notEmpty: {
-                        message: 'Please supply your zip code'
+                     stringLength: {
+                        min: 2,
                     },
-                    zipCode: {
-                        country: 'US',
-                        message: 'Please supply a vaild zip code'
+                    notEmpty: {
+                        message: 'Please supply your country name'
                     }
                 }
             },
+            
             comment: {
                 validators: {
                       stringLength: {
-                        min: 10,
-                        max: 200,
-                        message:'Please enter at least 10 characters and no more than 200'
+                        min: 4,
+                        max: 250,
+                        message:'Please enter at least 5 characters and no more than 250'
                     },
                     notEmpty: {
                         message: 'Please supply a description of your project'
@@ -115,9 +114,6 @@ $(document).ready(function() {
             // Get the BootstrapValidator instance
             var bv = $form.data('bootstrapValidator');
 
-            // Use Ajax to submit form data
-            $.post($form.attr('action'), $form.serialize(), function(result) {
-                console.log(result);
-            }, 'json');
+            
         });
 });
