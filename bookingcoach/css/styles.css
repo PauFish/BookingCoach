@@ -2372,8 +2372,8 @@ html[dir="rtl"] .wpml-language-switcher-block .wpml-ls-dropdown ul li.wp-block-n
     bottom: 20px;
     right: 20px;
     z-index: 9999;
-    animation: pulse 1.5s ease-out infinite; 
-    border-radius: 50%;
+    animation: pulse 3s ease-out infinite; 
+    border-radius:50%;
   }
   
   .btn-whatsapp-pulse img {
