@@ -2395,3 +2395,5 @@ html[dir="rtl"] .wpml-language-switcher-block .wpml-ls-dropdown ul li.wp-block-n
         box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
     }
 }
+
+#success_message{ display: none;}
