@@ -2396,4 +2396,11 @@ html[dir="rtl"] .wpml-language-switcher-block .wpml-ls-dropdown ul li.wp-block-n
     }
 }
 
+.legendForm{
+    margin: bottom 20px;
+    font-size: 25px;
+    color: goldenrod;
+}
+
 #success_message{ display: none;}
+
